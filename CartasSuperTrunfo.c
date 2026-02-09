@@ -23,8 +23,53 @@ int main() {
     float pib2;
     int pontosTuristicos2;
 
+// --- Cadastro da Carta 1 ---
+    printf("--- Cadastro da Carta 1 ---\n");
+    printf("Estado (A-H): ");
+    scanf(" %c", &estado1); // O espaço antes de %c limpa o buffer do teclado
+    
+    printf("Código da Carta (ex: A01): ");
+    scanf("%s", codigo1);
+    
+    printf("Nome da Cidade: ");
+    scanf(" %[^\n]", nomeCidade1); // Lê a string inclusive com espaços até o 'enter'
+    
+    printf("População: ");
+    scanf("%d", &populacao1);
+    
+    printf("Área (km²): ");
+    scanf("%f", &area1);
+    
+    printf("PIB (em bilhões): ");
+    scanf("%f", &pib1);
+    
+    printf("Número de Pontos Turísticos: ");
+    scanf("%d", &pontosTuristicos1);
+    printf("\n");
 
-  // Área para entrada de dados
+    // --- Cadastro da Carta 2 ---
+    printf("--- Cadastro da Carta 2 ---\n");
+    printf("Estado (A-H): ");
+    scanf(" %c", &estado2);
+    
+    printf("Código da Carta (ex: B02): ");
+    scanf("%s", codigo2);
+    
+    printf("Nome da Cidade: ");
+    scanf(" %[^\n]", nomeCidade2);
+    
+    printf("População: ");
+    scanf("%d", &populacao2);
+    
+    printf("Área (km²): ");
+    scanf("%f", &area2);
+    
+    printf("PIB (em bilhões): ");
+    scanf("%f", &pib2);
+    
+    printf("Número de Pontos Turísticos: ");
+    scanf("%d", &pontosTuristicos2);
+    printf("\n");
 
   // Área para exibição dos dados da cidade
 
